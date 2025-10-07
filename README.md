@@ -1,2 +1,2 @@
 # C++ projects
-Here i uplode my some creative c++ programs ,uplode some creative ideas and c++ topics
+Here i uplode my creative c++ programs ,creative ideas and c++ topics
