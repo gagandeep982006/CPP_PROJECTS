@@ -19,3 +19,23 @@ Once encrypted, the files become unreadable or corrupted until restored using th
 
 
 ✔ Decrypts files back to original state
+
+
+🧩 Why I Made This
+
+
+This project was created to explore:
+
+
+Binary file handling in C++
+
+
+Directory scanning and automation
+
+
+Basic reversible encryption logic
+
+
+How ransomware-like file scrambling works (but safely)
+
+It’s not real ransomware — just an educational experiment.
