@@ -61,10 +61,14 @@ int main(){
                 string name = *iter;
                 int size = name.size();
                 while(iter2 != phototype.end()){
-                    if(name.substr(size-4) == *iter2){
-                        write<<name<<endl;
-                        specialfilename.push_back(string(name));
-                    };
+                        if(size <= 4){
+                            iter2++;
+                            continue;
+                        }
+                        else if(name.substr(size-4) == *iter2){
+                            write<<name<<endl;
+                            specialfilename.push_back(string(name));
+                        }
                     iter2++;
                 }
             }
