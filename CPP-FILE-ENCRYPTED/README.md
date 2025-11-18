@@ -1,3 +1,3 @@
                                                            # FILE-ENCRYPTED-IN-CPP
-This project is a lightweight file encryption tool written in C++ that demonstrates how file content can be modified, scrambled and restored using a reversible custom logic.
-It works by reading target files in binary format, injecting randomized encoded patterns, reversing data segments, and rewriting the scrambled data back into the original file.
+A simple C++ project that encrypts and decrypts binary files such as JPG, PNG, PDF, GIF, and other media/document files by modifying their internal byte structure.
+Once encrypted, the files become unreadable or corrupted until restored using the included decrypt program.
