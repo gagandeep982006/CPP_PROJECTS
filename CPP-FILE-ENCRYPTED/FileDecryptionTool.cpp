@@ -59,8 +59,8 @@ int main(){
                 //corected the coded file
                 read.open(filename[j],ios::in|ios::binary);
                 ofstream write("try.txt",ios::out|ios::binary);
-                while(!read.eof()){
-                    getline(read,data2);
+                while(getline(read,data2)){
+                    // getline(read,data2);
                     int position  = data2.find(specialsign[dontdeletitdata[j]]);
                     int length = specialsign[dontdeletitdata[j]].size();
                     if(position >=0){
@@ -76,8 +76,8 @@ int main(){
                 //now writing the data to original file
                 read.open("try.txt",ios::in|ios::binary);
                 write.open(filename[j],ios::out|ios::binary);
-                while(!read.eof()){
-                    getline(read,data2);
+                while(getline(read,data2)){
+                    // getline(read,data2);
                     write<<data2<<endl;
                 }
                 //closing the file
