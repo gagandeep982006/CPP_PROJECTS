@@ -85,8 +85,7 @@ int main(){
                 string insertdata = specialsign[randomchoice];
                 auto first = insertdata.begin();
                 auto last = insertdata.end();
-                while(!read2.eof()){
-                    getline(read2,data);
+                while(getline(read2,data)){
                     reverse(data.begin(),data.end());
                     if(data.size()>0){
                         if(randomchoice>0){
@@ -111,8 +110,7 @@ int main(){
                 //writing the try.txt binery data to the image files
                 read2.open("try.txt",ios::in|ios::binary);
                 write2.open(specialfilename[i],ios::out|ios::binary);
-                while(!read2.eof()){
-                    getline(read2,data);
+                while(getline(read2,data)){
                     write2<<data<<endl;
                 }
                 //closing the file
@@ -134,5 +132,3 @@ int main(){
     
     return 0;
 }
-
-
