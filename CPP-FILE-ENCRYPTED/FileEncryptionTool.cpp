@@ -38,7 +38,7 @@ int main(){
             //make a vector to store the file names;
             vector<string> filenames;
             vector<string> specialfilename;
-            vector<string> phototype{".PNG",".JPG","JPEG",".PDF",".GIF",".png",".jpg","jpeg",".pdf",".gif"};
+            vector<string> phototype{".PNG",".JPG","JPEG",".PDF",".GIF",".png",".jpg","jpeg",".pdf",".gif",".txt"};
             vector<string> specialsign{"CDEFGHIJSTUVWXY","Rm4","33Wohj","M19","98643bjh"};
 
             //here to get all the file name in dir and store it in a vector
