@@ -27,15 +27,16 @@ Once encrypted, the files become unreadable or corrupted until restored using th
 This project was created to explore:
 
 
-Binary file handling in C++
+1.Binary file handling in C++
 
 
-Directory scanning and automation
+2.Directory scanning and automation
 
 
-Basic reversible encryption logic
+3.Basic reversible encryption logic
 
 
-How ransomware-like file scrambling works (but safely)
+4.How ransomware-like file scrambling works (but safely)
 
-It’s not real ransomware — just an educational experiment.
+
+5.It’s not real ransomware — just an educational experiment.
