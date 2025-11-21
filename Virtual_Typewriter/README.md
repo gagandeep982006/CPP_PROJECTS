@@ -63,12 +63,6 @@ I built this project to explore:
 
 
 ->It started as a simple idea — “Can I make C++ type for me?”
-
-
 But it turned into a complete automation tool capable of typing full sentences with accuracy and timing control.
-
-
 The logic mimics how a real user types:
-
-
 holding SHIFT when needed, releasing keys after press, and inserting delays.
