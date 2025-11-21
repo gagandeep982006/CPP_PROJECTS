@@ -19,3 +19,27 @@ It simulates human-like typing by moving the mouse cursor to a specific position
 
 
 ✔️ Supports letters, numbers, symbols, and whitespace
+
+
+🧠 How It Works
+
+
+This project uses:
+
+
+SetCursorPos() → Move cursor to desired coordinates
+
+
+mouse_event() → Simulate mouse click on a field
+
+
+keybd_event() → Generate key press events
+
+
+Win32 Virtual-Key Codes mapping for characters
+
+
+The logic mimics how a real user types:
+
+
+holding SHIFT when needed, releasing keys after press, and inserting delays.
