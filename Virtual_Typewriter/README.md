@@ -21,6 +21,8 @@ It simulates human-like typing by moving the mouse cursor to a specific position
 ✔️ Supports letters, numbers, symbols, and whitespace
 
 
+
+
 🧠 How It Works
 
 
