@@ -47,22 +47,22 @@ Win32 Virtual-Key Codes mapping for characters
 I built this project to explore:
 
 
-Low-level input simulation
+->Low-level input simulation
 
 
-Keyboard event handling
+->Keyboard event handling
 
 
-Virtual-Key codes and character mapping
+->Virtual-Key codes and character mapping
 
 
-Automation and human-text simulation
+->Automation and human-text simulation
 
 
-How operating systems interpret synthetic input
+->How operating systems interpret synthetic input
 
 
-It started as a simple idea — “Can I make C++ type for me?”
+->It started as a simple idea — “Can I make C++ type for me?”
 
 
 But it turned into a complete automation tool capable of typing full sentences with accuracy and timing control.
